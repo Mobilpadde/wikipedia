@@ -9,4 +9,9 @@ window.burgerMenu = (burgerId, itemId, classes) => {
             item.className += " " + classes;
         }
     });
+
+    window.addEventListener("resize", () => {
+        if(item.className.indexOf(classes) < 0 && window.innerWidth > 900)
+            item.className += classes;
+    });
 };

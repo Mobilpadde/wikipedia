@@ -5,6 +5,7 @@
         <title>My Wikipedia</title>
         <link rel="stylesheet" href="styles/burger.css">
         <link rel="stylesheet" href="styles/fetcher.css">
+        <link rel="stylesheet" href="styles/article.css">
         <link rel="stylesheet" href="styles/index.css">
         <link rel="stylesheet" href="styles/px900.css">
     </head>
@@ -14,24 +15,35 @@
                 <div id="cosmetic">
                     <img src="" alt="">
                     <div id="burger" class="burger"></div>
-                    <h1 class="title" id="title"></h1>
+                    <h1 class="title" id="title">Hai!</h1>
                 </div>
             </div>
             <div id="content">
                 <div id="fetcher" class="show">
                     <span>I'd like to know about</span>
-                    <input type="text" class="input text" id="fTitle" placeholder="Albert Einstein">
+                    <input type="text" class="input text" id="fTitle" placeholder="Albert Einstein" value="Albert Einstein">
                     <span>in</span>
-                    <select id="language-selector" class="input select">
-                        <option value="da">Dansk</option>
-                    </select>
+                    <select id="language-selector" class="input select"></select>
                     <button id="fetch" class="input button">please</button>
                 </div>
                 <article id="article"></article>
             </div>
         </div>
         <script src="scripts/burger-menu.js"></script>
-        <script src="scripts/fetcher.js"></script>
+        <script src="scripts/languager.js"></script>
+        <!-- START LANGS -->
+        <script src="scripts/languages/am.lang.js"></script>
+        <script src="scripts/languages/cv.lang.js"></script>
+        <script src="scripts/languages/da.lang.js"></script>
+        <script src="scripts/languages/de.lang.js"></script>
+        <script src="scripts/languages/dv.lang.js"></script>
+        <script src="scripts/languages/en.lang.js"></script>
+        <script src="scripts/languages/hy.lang.js"></script>
+        <script src="scripts/languages/lg.lang.js"></script>
+        <script src="scripts/languages/nd.lang.js"></script>
+        <script src="scripts/languages/zh.lang.js"></script>
+        <!-- END LANGS -->
+        <script src="scripts/jsonp.js"></script>
         <script src="scripts/main.js"></script>
     </body>
 </html>

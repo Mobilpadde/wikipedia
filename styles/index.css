@@ -24,14 +24,3 @@ body{
 #headline #cosmetic{
     position: relative;
 }
-
-article{
-    background: lightyellow;
-    width: calc(100% - 300px - 10px * 2);
-    font-family: "Comic Sans MS";
-    padding: 5px;
-    margin-top: 35px;
-    margin-left: 10px;
-    display: inline-block;
-    float: left;
-}
