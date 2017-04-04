@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Wikipedia</title>
+        <link rel="stylesheet" href="styles/burger.css">
+        <link rel="stylesheet" href="styles/fetcher.css">
+        <link rel="stylesheet" href="styles/index.css">
+        <link rel="stylesheet" href="styles/px900.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="headline">
+                <div id="cosmetic">
+                    <img src="" alt="">
+                    <div id="burger" class="burger"></div>
+                    <h1 class="title" id="title"></h1>
+                </div>
+            </div>
+            <div id="content">
+                <div id="fetcher" class="show">
+                    <span>I'd like to know about</span>
+                    <input type="text" class="input text" id="fTitle" placeholder="Albert Einstein">
+                    <span>in</span>
+                    <select id="language-selector" class="input select">
+                        <option value="da">Dansk</option>
+                    </select>
+                    <button id="fetch" class="input button">please</button>
+                </div>
+                <article id="article"></article>
+            </div>
+        </div>
+        <script src="scripts/burger-menu.js"></script>
+        <script src="scripts/fetcher.js"></script>
+        <script src="scripts/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+.burger,
+.burger:before,
+.burger:after{
+    width: 21px;
+    display: block;
+    border-bottom: 3px solid #aaa;
+}
+
+.burger{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.burger:before{
+    content: "";
+    position: absolute;
+    top: -6px;
+}
+
+.burger:after{
+    content: "";
+    position: absolute;
+    top: 6px;
+}
