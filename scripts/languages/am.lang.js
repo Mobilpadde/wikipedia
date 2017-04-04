@@ -1,4 +1,6 @@
 (function(){
-	const code = "ac";
-	const long = "Acèh";
+	const code = "am";
+	const long = "ዴንማርክ";
+
+	return langr(code, long);
 }());
